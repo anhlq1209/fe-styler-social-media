@@ -64,6 +64,12 @@
   right: 1rem;
   top: 0.5rem;
   cursor: pointer;
+  color: #495057;
+}
+
+.previewImage > svg:hover {
+  background-color: #f8f9fa;
+  border-radius: 5px;
 }
 
 .previewImage > img {
