@@ -54,6 +54,7 @@ const PostShare = () => {
           <div style={{ display: "none" }}>
             <input
               type="file"
+              accept=".png, .jpg, .jpeg"
               name="myImage"
               ref={imageRef}
               onChange={onImageChange}
